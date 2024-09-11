@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../../../../Downloads/model (2)"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "abekatz_website",
+		"liveServer.settings.port": 5501
+	}
+}
