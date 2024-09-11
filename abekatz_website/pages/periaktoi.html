@@ -1,0 +1,88 @@
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
+
+<style>
+
+.text_left {
+
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 12px;
+text-align: justify;
+margin-top: 0%;
+padding-top: 0%;
+justify-content: start;
+
+
+}
+
+model-viewer {
+height: 700px;
+width: 700px;
+margin-top: 0%;
+padding-top: 0%;
+}
+
+.left_side {
+background-color: white;
+width: 25%;
+height: fit-content;
+margin-top: 200px;
+margin-left: 20px;
+margin-right: 45px;
+vertical-align: top;
+
+display: inline-block;
+}
+
+.right_side {
+background-color: white;
+width: fit-content;
+margin-top: -50px;
+display: inline-block;
+vertical-align: top;
+}
+
+a:hover {
+color: black;
+background-color: aqua;
+}
+
+</style>
+
+<div class="left_side">
+
+<body class="text_left">
+
+<b>"Sabbatini's Periaktoi for Reed College"</b>
+<br>
+<br>
+As a final project for Reed College's Theater201: Stagecraft, I designed and fabricated a scale model of Sabatini's ancient Greek system of rapid theater scenery changes. Vectors for the project were created in Cuttle.xyz and Illustrator, and the files were virtually test fit in Blender. All parts were cut on the school's Rayjet 300 80 watt CO2 tube laser. Each side of the four triangular pillars feature scenery art that when viewed from the front align to create a stage backdrop. The handle and gear system rotate the pillars and allow for the art on each side to be seen.
+<br>
+<br>
+← back to
+[<a href="index.html">home</a>]
+</body>
+
+</div>
+
+
+
+<div class="right_side">
+
+<body class="right_body">
+
+<model-viewer src="box test7.glb"
+    poster="boxposter.png"
+    shadow-intensity="0"
+    tone-mapping="neutral"
+    camera-controls
+    disable-zoom
+    touch-action="pan-y"
+    interaction-prompt="none"
+    camera-orbit="-30deg 75deg 3m"
+    animation-name="the one!" autoplay>
+    <div class="progress-bar hide" slot="progress-bar">   
+</model-viewer>
+
+</body>
+
+</div>
